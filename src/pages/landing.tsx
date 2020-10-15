@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiArrowRight } from 'react-icons/fi';
 import logoImg from '../images/logo.svg';
 import '../styles/pages/landing.css';
@@ -17,9 +18,9 @@ function Landing() {
                         <strong>Rio de Janeiro</strong>
                         <span>Rio de Janeiro</span>
                     </div>
-                    <a className="enter-app" href="">
+                    <Link className="enter-app"to="/app">
                         <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6)" />
-                    </a>
+                    </Link>
                 </div>
             </div>
         </React.Fragment>
